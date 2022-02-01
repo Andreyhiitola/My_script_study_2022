@@ -14,7 +14,7 @@ rsync -avz --delete $source $distination > /home/andy/Desktop/log_file/log-file.
 
 #Validate the mount point of the destination
 
-df -h /home >> /home/andy/Desktop/log_file/log-file_DISKSPACE.txt`date +%F-%H-%M
+df -h /home > /home/andy/Desktop/log_file/log-file_DISKSPACE.txt`date +%F-%H-%M`
                
 
 
