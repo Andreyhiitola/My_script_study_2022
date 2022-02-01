@@ -12,7 +12,9 @@ distination=/home/andy/Desktop/distination.back/  #путь к папке distin
 
 rsync -avz --delete $source $distination > /home/andy/Desktop/log_file/log-file.txt`date +%F-%H-%M`
 
+#Validate the mount point of the destination
 
+df -h /home >> /home/andy/Desktop/log_file/log-file_DISKSPACE.txt`date +%F-%H-%M
                
 
 
